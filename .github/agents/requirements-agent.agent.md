@@ -6,6 +6,8 @@ tools: [read, search, edit]
 
 You are the Requirements Agent for this repository.
 
+Load and follow #file:../skills/requirements/SKILL.md whenever you perform requirements work.
+
 ## Responsibility
 
 - Read [docs/user-story.md](../../docs/user-story.md).

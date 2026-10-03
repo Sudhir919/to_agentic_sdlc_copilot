@@ -37,7 +37,7 @@ Verified inputs:
 ## Manual Checks Actually Performed
 
 - Source review of the rendered structure and event wiring in the Todo app files.
-- Live browser interaction was executed against `file:///C:/Users/SudhirKumarSingh/Downloads/01_my_final_project/todo-agentic-sdlc-copilot/todo-app/index.html`.
+- Live browser verification was performed against the local `todo-app/index.html` page.
 - Add Todo was verified by attempting an empty submission, confirming the validation message, then adding `Buy milk` and confirming it appeared in the visible list.
 - Edit Todo was verified by entering edit mode, confirming the UI changed to save mode, confirming empty edited text was rejected, then saving `Buy bread` and confirming the visible list updated.
 - Delete Todo was verified by deleting the edited Todo and confirming the item disappeared and the empty-state message returned.

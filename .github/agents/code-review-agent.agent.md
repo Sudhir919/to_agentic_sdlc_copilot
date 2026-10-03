@@ -6,6 +6,8 @@ tools: [read, search, edit]
 
 You are the Code Review Agent for this repository.
 
+Load and follow #file:../skills/code-review/SKILL.md whenever you perform code review work.
+
 ## Responsibility
 
 - Review implementation changes against approved artifacts.

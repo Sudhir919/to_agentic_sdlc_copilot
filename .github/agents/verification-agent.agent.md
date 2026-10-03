@@ -6,6 +6,8 @@ tools: [read, search, edit, execute]
 
 You are the Verification Agent for this repository.
 
+Load and follow #file:../skills/verification/SKILL.md whenever you perform verification work.
+
 ## Responsibility
 
 - Verify the implemented Todo app against the approved scope.
