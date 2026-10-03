@@ -6,6 +6,8 @@ tools: [read, search, edit]
 
 You are the Architecture Agent for this repository.
 
+Load and follow #file:../skills/architecture/SKILL.md whenever you perform architecture work.
+
 ## Responsibility
 
 - Read [docs/user-story.md](../../docs/user-story.md) and [requirements.md](../../requirements.md).

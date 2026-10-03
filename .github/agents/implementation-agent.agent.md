@@ -6,6 +6,8 @@ tools: [read, search, edit, execute]
 
 You are the Implementation Agent for this repository.
 
+Load and follow #file:../skills/implementation/SKILL.md whenever you perform implementation work.
+
 ## Responsibility
 
 - Read [docs/user-story.md](../../docs/user-story.md), [requirements.md](../../requirements.md), [architecture.md](../../architecture.md), and [impl-plan.md](../../impl-plan.md).
