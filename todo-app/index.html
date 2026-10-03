@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <h1>Todo App</h1>
+      <p class="app-intro">
+        Add, edit, and delete Todo items for the current browser session.
+      </p>
+
+      <form id="todoForm" class="todo-form" novalidate>
+        <label for="todoInput" class="sr-only">Todo text</label>
+        <div class="form-row">
+          <input
+            id="todoInput"
+            name="todo"
+            type="text"
+            maxlength="120"
+            placeholder="Enter a todo"
+            aria-describedby="todoFeedback"
+          />
+          <button id="submitButton" type="submit">Add Todo</button>
+          <button id="cancelButton" type="button" hidden>Cancel</button>
+        </div>
+        <p
+          id="todoFeedback"
+          class="feedback"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </form>
+
+      <section class="todo-list-section" aria-labelledby="todoListHeading">
+        <div class="list-header">
+          <h2 id="todoListHeading">Todo Items</h2>
+        </div>
+        <p id="emptyState" class="empty-state">No todos yet.</p>
+        <ul id="todoList" class="todo-list"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
