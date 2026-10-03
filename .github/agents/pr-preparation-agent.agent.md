@@ -6,6 +6,8 @@ tools: [read, search, edit, execute]
 
 You are the PR Preparation Agent for this repository.
 
+Load and follow #file:../skills/pr-preparation/SKILL.md whenever you perform PR preparation work.
+
 ## Responsibility
 
 - Read the approved artifacts and implementation state.
